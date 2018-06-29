@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+}
+.container{
+    background-image:url("http://designstacks.net/content_images/eyeson_images/Designing/Jeka/tut202_wallpaper/06.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1{
+  color:white;
+  font-size:70px;
+  text-align:left;
+  font-family: "Brush Script MT", "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive;
+}
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+}
+
+nav>ul {
+    text-align: right;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(221, 109, 35, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+@media (min-width: 480px)
+grayscale.css:91
+p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+}

@@ -87,15 +87,6 @@ p{
   text-align: center;
 }
 #skills{
-  background-image:url("https://orig00.deviantart.net/2ed9/f/2010/202/3/2/blue_and_black_abstract_by_onestopshopper2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  color:white;
-  font-size: 30px;
-  margin-top:inherit;
-}
-#projects{
   background-image:url("https://xshyfc.com/wp-content/uploads/data/2018/3/19/Black-and-White-Desktop-Backgroundsamazing-black-and-white-desktop-backgrounds-1920x1080-download-PIC-WPXH662235.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,3 +94,26 @@ p{
   color:white;
   font-size: 30px;
   margin-top:inherit;
+}
+
+#projects{
+  background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/35/05562e22f650e30.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
+  font-size: 30px;
+  margin-top:inherit;
+}
+#contacts{
+  background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/35/05562e22f650e30.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
+  font-size: 30px;
+  margin-top:inherit;
+}
+#license{
+  text-align:center;
+}

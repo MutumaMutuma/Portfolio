@@ -64,10 +64,13 @@ p {
 
 }
 button{
-  background-color: lightgrey;
+  border: 0.5rem outset pink;
+  background-color: black;
   padding: 20px;
-  color:purple;
+  color:white;
   margin:10px;
+  font-size: 20px;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #about{

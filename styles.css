@@ -1,7 +1,7 @@
-body, html {
+body{
     height: 100%;
     background-color: black;
-
+    color:gold;
 }
 .container{
     background-image:url("https://forum.manjaro.org/uploads/default/original/2X/c/cb08c70a8387f6d5c544de17f4a78f701ebc20ba.png");
@@ -64,12 +64,13 @@ p {
 
 }
 button{
-  border: 0.5rem outset pink;
+  border: 0.5rem outset purple;
   background-color: black;
   padding: 20px;
   color:white;
   margin:10px;
   font-size: 20px;
+  border-radius: 6rem;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -103,7 +104,7 @@ h4{
 }
 
 #projects{
-  background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/35/05562e22f650e30.jpg");
+  background-image:url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/04/12/945621beadcbcfb.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -112,7 +113,6 @@ h4{
   margin-top:inherit;
 }
 #contacts{
-  background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/35/05562e22f650e30.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

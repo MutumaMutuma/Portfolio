@@ -89,8 +89,11 @@ h2{
 p{
   text-align: center;
 }
+h4{
+  color:gold;
+}
 #skills{
-  background-image:url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/04/12/945621beadcbcfb.jpg");
+  background-image:url("http://backgroundcheckall.com/wp-content/uploads/2017/12/twitter-background-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

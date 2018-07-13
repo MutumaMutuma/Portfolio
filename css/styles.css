@@ -1,0 +1,160 @@
+body{
+    height: 100%;
+    background-color: black;
+    color:green;
+}
+.proj{
+  background-color: black;
+}
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+  text-align:left;
+  font-family:;
+  font-size:2em;
+
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+.container{
+    background-image:url("https://tamaracwaltersdotcom.files.wordpress.com/2016/04/graphic-myportfolio-01-1024x550.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+h1{
+  color:white;
+  font-size:70px;
+  text-align:left;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+
+}
+.card{
+  box-sizing: 40px;
+}
+nav>ul {
+    text-align: right;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(221, 109, 35, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+@media (min-width: 480px)
+grayscale.css:91
+p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.my-auto {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+button{
+  border: 0.2rem outset green;
+  background-color: black;
+  padding: 20px;
+  color:white;
+  margin:10px;
+  font-size: 20px;
+  border-radius: 1rem;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#about{
+  background-image:url("../images/Dark-Background-66.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
+  font-size: 30px;
+  margin-top:inherit;
+
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+h4{
+  color:gold;
+}
+#skills{
+  background-color: black;
+  position: relative;
+  color:white;
+  font-size: 30px;
+  margin-top:inherit;
+}
+
+#projects{
+  background-image:url("../images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
+  font-size: 30px;
+  margin-top:inherit;
+}
+#contacts{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
+  font-size: 30px;
+  margin-top:inherit;
+}
+#license{
+  text-align:center;
+}

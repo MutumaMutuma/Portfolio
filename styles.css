@@ -2,6 +2,7 @@ body{
     height: 100%;
     background-color: black;
     color:gold;
+    font-family: 'Gaegu', cursive;
 }
 .container{
     background-image:url("https://forum.manjaro.org/uploads/default/original/2X/c/cb08c70a8387f6d5c544de17f4a78f701ebc20ba.png");

@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav>ul>li>a:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 10px purple, insert 0 0 1px white;
     background: rgba(221, 109, 35, 0.678);
     color: rgba(0, 35, 122, 0.7);
 }
@@ -64,7 +64,7 @@ p {
 
 }
 button{
-  border: 0.5rem outset purple;
+  border: 0.5rem outset white;
   background-color: black;
   padding: 20px;
   color:white;
@@ -106,6 +106,7 @@ h4{
 #projects{
   background-image:url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/04/12/945621beadcbcfb.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   position: relative;
   color:white;
@@ -113,12 +114,11 @@ h4{
   margin-top:inherit;
 }
 #contacts{
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
   color:white;
-  font-size: 30px;
+  font-size: 10px;
   margin-top:inherit;
+  padding:200px;
+  background-color: brown;
 }
 #license{
   text-align:center;

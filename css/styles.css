@@ -6,7 +6,7 @@ body{
 .proj{
   background-color: black;
 }
-@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url("https://fonts.googleapis.com/css?family=Khula:700");
 body {
   background: #111;
 }
@@ -109,7 +109,7 @@ button{
 }
 
 #about{
-  
+
   color:white;
   font-size: 30px;
   margin-top:inherit;

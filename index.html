@@ -3,7 +3,7 @@
   <html>
     <head>
       <link rel="stylesheet" href="css/bootstrap.css">
-      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nosifer" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="shortcut icon" href="images/WhatsApp Image 2018-07-12 at 19.14.01.jpeg">
       <meta charset="utf-8">
@@ -17,19 +17,24 @@
 <div class="container-fluid">
   <div class="container">
     <nav>
-  <h2 style="text-align:left; color:white;">Lewis Mutuma</h2>
+  <h2 style="text-align:left; color:gold;
+font-family: 'Nosifer', cursive; ">Lewis Mutuma</h2>
           <ul>
-                         <li>
+                         <li style="
+font-family: 'Nosifer', cursive; color:gold;">
                              <a href="#about">About Me</a>
                          </li>
 
-                         <li>
+                         <li style="
+font-family: 'Nosifer', cursive; color:gold;">
                              <a href="#skills">Skills</a>
                          </li>
-                         <li>
+                         <li style="
+font-family: 'Nosifer', cursive;">
                              <a href="#projects">Projects</a>
                          </li>
-                         <li>
+                         <li style="
+font-family: 'Nosifer', cursive;color:gold;">
                              <a href="#contacts">Contacts</a>
                          </li>
                      </ul>
@@ -48,7 +53,8 @@
   </div>
   <div id="link">
     <div id="about">
-      <h2>About Me</h2>
+      <h2 style="
+font-family: 'Nosifer', cursive; color:gold;">About Me</h2>
       <p>Hello, my name is Lewis Mutuma</p>
       <p>I'm a developer and also a student at Moringa school, Which is a world class software development school. Here is a link to find out more about Moringa school<a href="https://moringaschool.com/">Click here.</a> </p>
       <p>You might be eager to know more about me, Right? </p>
@@ -59,7 +65,8 @@
   </div>
 
   <div id="skills">
-    <h2>Skills</h2>
+    <h2 style="
+font-family: 'Nosifer', cursive; color:gold;">Skills</h2>
     <p>I'm a developer specialized in  developing languages;</p>
    <div class="row">
      <div class="col-md-6">
@@ -87,7 +94,8 @@
 
 
     <div id="projects" class="proj">
-      <h2>Projects</h2>
+      <h2 style="
+font-family: 'Nosifer', cursive; color:gold;">Projects</h2>
       <p>Before i give a sneak peak on the websites and applications that i have ventured my all of my hard work in, I'll tell you that all projects can be found on Github.</p>
       <!-- Container (TOUR Section) -->
     <div id="tour" class="bg-1">
@@ -108,7 +116,7 @@
               <img src="images/10870.jpg" alt="pingpong" width="500" height="500">
               <p><strong>Ping Pong</strong></p>
               <p>Ping pong game involving numbers</p>
-              <button class="btn" data-toggle="modal" data-target="#myModal">VIEW</button>
+              <a href="#"></a> <button class="btn" data-toggle="modal" data-target="#myModal">VIEW</button>
             </div>
           </div>
           <div class="col-sm-4">
@@ -116,7 +124,7 @@
               <img src="images/images.png" alt="San Francisco" width="400" height="200">
               <p><strong>Address Book</strong></p>
               <p>An adderss book</p>
-              <button class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">VIEW</button>
+              <a href="https://mutumamutuma.github.io/Address-Book/"><button class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal">VIEW</button></a>
             </div>
           </div>
         </div>
@@ -162,34 +170,36 @@
 
 
    <div id="contacts" style="padding:150px;">
-    <h2>Contact me</h2>
 
+   <div class="row">
+     <div class="col-md-6">
+       <h2 align="left">Feedback</h2>
+       <textarea class="bg-success" rows="2" placeholder="Feedback" style="overflow:hidden;">
+       </textarea><br>
+       <button onclick="myFunction()" class="btn btn-success button">Send</button>
+       <div id="snackbar">Thankyou for your feedback... <img src="https://images-na.ssl-images-amazon.com/images/I/715vwvP5ZEL.png" height="100px" width="100px"></div>
+     </div>
+
+     <div class="col-md-6">
+       <h2>Contact me</h2>
+       <div class="row">
+         <div class="col-md-3">
+           <h3><a href="https://github.com/MutumaMutuma/Ping-pong"><i class="fa fa-github" aria-hidden="true" style="font-size:40px; color:#FFA500;"  class="btn btn-default btn-lg"></i></a></h3>
+         </div>
+         <div class="col-md-3">
+           <h3> <a href="#"><i class="fa fa-facebook" aria-hidden="true" style="font-size:40px; color:blue;"  class="btn btn-default btn-lg"></i></a> </h3>
+         </div>
+         <div class="col-md-3">
+           <h3> <a href="#"><i class="fa fa-instagram" aria-hidden="true" style="font-size:40px; color: #8a3ab9;"  class="btn btn-default btn-lg"></i></a> </h3>
+         </div>
+         <div class="col-md-3">
+           <h3> <a href="#"><i class="fa fa-pinterest" aria-hidden="true" style="font-size:40px; color: red;"  class="btn btn-default btn-lg"></i></a> </h3>
+         </div>
+       </div>
+     </div>
+   </div>
       <!--  -->
-      <div class="row">
-        <div class="col-md-4">
 
-        </div>
-        <div class="col-md-4">
-          <div class="row">
-            <div class="col-md-3">
-              <h3><a href="https://github.com/MutumaMutuma/Ping-pong"><i class="fa fa-github" aria-hidden="true" style="font-size:40px; color:#FFA500;"  class="btn btn-default btn-lg"></i></a></h3>
-            </div>
-            <div class="col-md-3">
-              <h3> <a href="#"><i class="fa fa-facebook" aria-hidden="true" style="font-size:40px; color:blue;"  class="btn btn-default btn-lg"></i></a> </h3>
-            </div>
-            <div class="col-md-3">
-              <h3> <a href="#"><i class="fa fa-instagram" aria-hidden="true" style="font-size:40px; color: #8a3ab9;"  class="btn btn-default btn-lg"></i></a> </h3>
-            </div>
-            <div class="col-md-3">
-              <h3> <a href="#"><i class="fa fa-pinterest" aria-hidden="true" style="font-size:40px; color: red;"  class="btn btn-default btn-lg"></i></a> </h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-
-        </div>
-
-      </div>
       <!--  -->
 
       <!--  -->

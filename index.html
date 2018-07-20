@@ -174,10 +174,10 @@ font-family: 'Nosifer', cursive; color:gold;">Projects</h2>
    <div class="row">
      <div class="col-md-6">
        <h2 align="left">Feedback</h2>
-       <textarea class="bg-success" rows="2" placeholder="Feedback" style="overflow:hidden;">
+       <textarea class="bg-success" rows="2" type="Feedback" style="overflow:hidden;">
        </textarea><br>
        <button onclick="myFunction()" class="btn btn-success button">Send</button>
-       <div id="snackbar">Thankyou for your feedback... <img src="https://images-na.ssl-images-amazon.com/images/I/715vwvP5ZEL.png" height="100px" width="100px"></div>
+       <div id="snackbar">Thankyou for your feedback... <img src="images/emojiThumbs.png" height="100px" width="100px"></div>
      </div>
 
      <div class="col-md-6">
@@ -207,7 +207,13 @@ font-family: 'Nosifer', cursive; color:gold;">Projects</h2>
           <p style="font-size:15px;">&copy; Copyright 2018 MutumaMutuma</p>
         </div>
 </div>
-
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("textarea").toggle(1000);
+  });
+});
+</script>
 <!-- scripts -->
 <script src="js/scripts.js"></script>
 <script

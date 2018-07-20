@@ -1,7 +1,7 @@
 body{
     height: 100%;
     background-color: black;
-    color:green;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .proj{
   background-color: black;
@@ -58,9 +58,7 @@ nav {
     margin-right: 0%;
 
 }
-.card{
-  box-sizing: 40px;
-}
+
 nav>ul {
     text-align: right;
 }
@@ -111,10 +109,7 @@ button{
 }
 
 #about{
-  background-image:url("../images/Dark-Background-66.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  
   color:white;
   font-size: 30px;
   margin-top:inherit;
@@ -128,6 +123,7 @@ p{
 }
 h4{
   color:gold;
+  font-size: 35px;
 }
 #skills{
   background-color: black;
@@ -145,6 +141,9 @@ h4{
   color:white;
   font-size: 30px;
   margin-top:inherit;
+}
+.thumbnail{
+  background-color: black;
 }
 #contacts{
   background-color: black;

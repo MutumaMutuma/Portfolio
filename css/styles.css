@@ -2,6 +2,7 @@ body{
     height: 100%;
     background-color: black;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
 }
 .proj{
   background-color: black;
@@ -98,9 +99,10 @@ p {
 
 }
 button{
-  border: 0.2rem outset green;
+  border-radius: 50%;
   background-color: black;
   padding: 20px;
+  border-radius: 50%;
   color:white;
   margin:10px;
   font-size: 20px;

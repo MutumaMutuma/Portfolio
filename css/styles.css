@@ -46,12 +46,7 @@ body {
     position: relative;
     background-attachment: fixed;
 }
-h1{
-  color:white;
-  font-size:70px;
-  text-align:left;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 nav {
     max-width: 960px;
     margin: 0 auto;

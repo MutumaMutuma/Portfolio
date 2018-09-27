@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])
- consoleText(['Hello There.', 'I am Lewis Mutuma :-)' ,'I love coding', , 'I am a developer.'], 'text',['white','white','white']);
+ consoleText(['Hello There.', 'I am Lewis Mutuma :-)' ,'I love coding', 'I am a developer' , 'The best thing about a boolean is even if you are wrong, you are only off by a bit..'], 'text',['white','white','white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];

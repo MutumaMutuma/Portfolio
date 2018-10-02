@@ -35,13 +35,15 @@ body {
   top:-0.14em;
   left:10px;
 }
-.container{
-    background-image:url("https://tamaracwaltersdotcom.files.wordpress.com/2016/04/graphic-myportfolio-01-1024x550.png");
+#container-fluid{
+    background-image:url("https://static1.squarespace.com/static/5789d6bb44024399693fba54/t/58f09b4a8419c24fe69e5268/1492163404522/standout+marketing+website+mockup+dark+overlay.jpg?format=1500w");
     height:100%;
+    /* width:1300px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
     background-attachment: fixed;
 }
 

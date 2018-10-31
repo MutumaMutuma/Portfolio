@@ -3,7 +3,32 @@
   <html>
     <head>
       <!-- Start of Async Drift Code -->
-
+      <script>
+          "use strict";
+          
+          !function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+              if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+              t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+              t.factory = function(e) {
+                return function() {
+                  var n = Array.prototype.slice.call(arguments);
+                  return n.unshift(e), t.push(n), t;
+                };
+              }, t.methods.forEach(function(e) {
+                t[e] = t.factory(e);
+              }), t.load = function(t) {
+                var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                var i = document.getElementsByTagName("script")[0];
+                i.parentNode.insertBefore(o, i);
+              };
+            }
+          }();
+          drift.SNIPPET_VERSION = '0.3.1';
+          drift.load('8nn4ar8tcvnu');
+        </script>
     <!-- End of Async Drift Code -->
       <link rel="stylesheet" href="css/bootstrap.css">
       <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
@@ -22,7 +47,7 @@
     <body>
 <div class="container-fluid">
   <div id="contain" class="container-fluid">
-    <nav>
+    <nav style="overflow: hidden; position: fixed; z-index: 1; width: 100%; background-color: black; background: linear-gradient(hsla(189, 70%, 25%, 0), rgba(122, 34, 110, 0) );">
   <h2 style="text-align:left; color:#27aaa4;
 font-family: 'Nosifer', cursive; ">Lewis Mutuma</h2>
           <ul>
@@ -71,7 +96,7 @@ font-family: 'Nosifer', cursive; color:#27aaa4; ">About Me</h2>
         <div class="col-md-6 col-sm-6">        
           <div style="background-color: rgba(0, 0, 0, 0.432); font-size: 25px; height:300px;" class="card">
           <h3 style="text-align: center;"><img src="https://www.actx.edu/bookstore/images/filecabinet/folder6/Graduation.png" width="70px" height="70px"></h3>
-            <p> I was done with my highschool education in 2017, and started Studying at moriga School where i explored my passion for coding.</p>
+            <p> I graduated from highschool in 2017, and started Studying at moriga School where i explored my passion for coding.</p>
           </div>
         </div>
      
@@ -215,17 +240,12 @@ font-family: 'Nosifer', cursive; color:#27aaa4; ">About Me</h2>
          <div class="col-md-2">
            <h3> <a href="#"><i class="fa fa-instagram" aria-hidden="true" style="font-size:40px; color: white;"  class="btn btn-default btn-lg"></i></a> </h3>
          </div>
-
-         <div class="col-md-2">
-           <h3> <a href="#"><i class="fa fa-pinterest" aria-hidden="true" style="font-size:40px; color: white;"  class="btn btn-default btn-lg"></i></a> </h3>
-         </div>
-
          <div class="col-md-2">
             <h3> <a href="#"><i class="fa fa-twitter" aria-hidden="true" style="font-size:40px; color:white;"  class="btn btn-default btn-lg"></i></a>     </h3>
           </div>
 
           <div class="col-md-2">
-              <h3> <a href="#"><i class="fa fa-youtube" aria-hidden="true" style="font-size:40px; color:white;"  class="btn btn-default btn-lg"></i></a>     </h3>
+              <h3> <a href="https://www.youtube.com/results?search_query=lewis+mutuma"><i class="fa fa-youtube" aria-hidden="true" style="font-size:40px; color:white;"  class="btn btn-default btn-lg"></i></a>     </h3>
           </div>
        </div>
      </div>
@@ -237,32 +257,7 @@ font-family: 'Nosifer', cursive; color:#27aaa4; ">About Me</h2>
 </div>
 
 <!-- scripts -->
-<script>
-    "use strict";
-    
-    !function() {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-        t.factory = function(e) {
-          return function() {
-            var n = Array.prototype.slice.call(arguments);
-            return n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-          var i = document.getElementsByTagName("script")[0];
-          i.parentNode.insertBefore(o, i);
-        };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('8nn4ar8tcvnu');
-    </script>
+
 <script src="js/scripts.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"

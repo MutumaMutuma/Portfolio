@@ -1,16 +1,13 @@
 body{
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 10px;
 }
 .proj{
   background-color: black;
 }
-@import url("https://fonts.googleapis.com/css?family=Khula:700");
-body {
-  background: #111;
-}
+
 .hidden {
   opacity:0;
 }
@@ -65,8 +62,8 @@ body {
   height:70%;
   width:100%;
   
-  padding-top: 50px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 250px;
   
   position: relative;
   color:white;
@@ -76,7 +73,7 @@ body {
 
 #projects{
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 170px;
   position: relative;
   color:white;
   font-size: 30px;

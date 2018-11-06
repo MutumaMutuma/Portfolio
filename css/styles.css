@@ -13,13 +13,13 @@ body{
 }
 .console-container {
   text-align:left;
-  font-size:2em;
-  height:200px;
-  width:500px;
-  display:block;
-  position:absolute;
+  font-size:3em;
+  
+  
+  display:inline;
+  position:relative;
   color:white;
-  padding-right: 150px;
+  padding-right: 10px;
   margin:auto;
 }
 .console-underscore {
@@ -47,9 +47,8 @@ body{
   padding-top: 30px;
   
   background-image: url('https://static.videezy.com/system/resources/thumbnails/000/005/583/original/dark-overview-typing-laptop.jpg');
-  height:70%;
+  height:100%;
   width:100%;
-  padding-bottom: 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,18 +58,62 @@ body{
 }
 
 #skills{
-  height:70%;
-  width:100%;
   
-  padding-top: 100px;
-  padding-bottom: 250px;
+  background-image: url('https://goodstock.photos/wp-content/uploads/laptop-journal-book-coffee.jpg');
+  height:100%;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  background-attachment: fixed;
+  padding-top: 00px;
+  padding-bottom: 10px;
   
   position: relative;
   color:white;
   font-size: 30px;
   margin-top:inherit;
 }
-
+.button-5{
+  width:100px;
+  height:40px;
+  border:2px solid #27aaa4;
+  
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  
+  overflow:hidden;
+  
+}
+.button-5 a{
+  
+  font-size:13px;
+  color:#27aaa4;
+  text-decoration:none;
+  line-height:40px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+.eff-5{
+  width:140px;
+  height:50px;
+  left:-140px;
+  top:-50px;
+  background:#27aaa4;
+  position:absolute;
+  transition:all .5s ease;
+  z-index:1;
+}
+.button-5:hover .eff-5{
+  left:0;top:0;
+}
+.button-5:hover a{
+  color:black;
+}
 #projects{
   padding-bottom: 50px;
   padding-top: 170px;
@@ -109,6 +152,7 @@ nav>ul>li>a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
     background-image: linear-gradient(rgba(0, 255, 221, 0.459), rgba(255, 255, 255, 0.24));
     color: white;
+    /* font */
 }
 
 .my-auto {
@@ -120,16 +164,7 @@ nav>ul>li>a:hover {
     color: white;
 
 }
-button{
-  border-radius: 50%;
-  background-color: black;
-  
-  color:white;
-  margin:10px;
-  font-size: 20px;
-  border-radius: 1rem;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 
 #about{
 
@@ -193,7 +228,7 @@ h4{
   border: 2px #27aaa4;
 }
 
-* {
+*{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

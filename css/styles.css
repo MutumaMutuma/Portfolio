@@ -11,6 +11,13 @@ body{
 .hidden {
   opacity:0;
 }
+/* boooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+
+
+
+
+/* boooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 .console-container {
   text-align:left;
   font-size:3em;
@@ -44,9 +51,9 @@ body{
 
 
 #about{
-  padding-top: 30px;
+  padding-top: 100px;
   
-  background-image: url('https://static.videezy.com/system/resources/thumbnails/000/005/583/original/dark-overview-typing-laptop.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg');
   height:100%;
   width:100%;
   background-position: center;
@@ -60,7 +67,7 @@ body{
 #skills{
   
   background-image: url('https://goodstock.photos/wp-content/uploads/laptop-journal-book-coffee.jpg');
-  height:100%;
+  height:120%;
   width:100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,9 +75,7 @@ body{
   
   
   background-attachment: fixed;
-  padding-top: 00px;
-  padding-bottom: 10px;
-  
+   
   position: relative;
   color:white;
   font-size: 30px;
@@ -116,7 +121,7 @@ body{
 }
 #projects{
   padding-bottom: 50px;
-  padding-top: 170px;
+  padding-top: 50px;
   position: relative;
   color:white;
   font-size: 30px;

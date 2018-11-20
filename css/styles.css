@@ -53,7 +53,7 @@ body{
 #about{
   padding-top: 100px;
   
-  background-image: url('https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg');
+  background-image: url('../images/myabout.jpg');
   height:100%;
   width:100%;
   background-position: center;
